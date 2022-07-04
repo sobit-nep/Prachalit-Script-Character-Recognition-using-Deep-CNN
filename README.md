@@ -1,6 +1,6 @@
 # Prachalit-script-character-recognition-using-CNN
 
-#ABSTRACT
+ABSTRACT
 Many manuscripts and inscriptions were written historically, spanning several centuries in 
 Kathmandu valley, by the indigenous Newar people, who developed their own alphabetic 
 writing system. However, digitization of these scripts have only recently been carried out, 
