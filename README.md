@@ -1,0 +1,1 @@
+# Prachalit-script-recognition-using-CNN
