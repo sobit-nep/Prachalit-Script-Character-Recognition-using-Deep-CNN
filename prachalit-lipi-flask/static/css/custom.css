@@ -1,0 +1,57 @@
+#upload {
+    opacity: 0;
+}
+
+h1 {
+    font-size: 72px;
+    background: -webkit-linear-gradient(#6ad5ff, #8400ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#upload-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+}
+
+.image-area {
+    border: 2px dashed rgba(89, 110, 179, 0.7);
+    padding: 1rem;
+    /* change padding to make container smaller */
+    position: relative;
+    max-width: 400px;
+    /* add max-width to limit container width */
+    margin: 0 auto;
+    /* center the container horizontally */
+}
+
+.image-area::before {
+    content: 'Image Preview';
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    z-index: 1;
+}
+
+.image-area img {
+    z-index: 2;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+body {
+    min-height: 100vh;
+    background-color: #757f9a;
+    background-image: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
